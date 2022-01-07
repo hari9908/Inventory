@@ -1,0 +1,18 @@
+dependencies {
+	compile  group: "com.liferay.portal", name: "release.dxp.api"
+	compile  project(":modules:averis-inventory:averis-inventory-api")
+}
+
+buildService {
+	apiDir = "../averis-inventory-api/src/main/java"
+}
+
+group = "com.averis.inventory"
+
+tasks.withType(JavaCompile) {
+
+	// Generated classes using Jodd library are unable to be read when compiled against JDK 11
+
+	sourceCompatibility = JavaVersion.VERSION_1_8
+	targetCompatibility = JavaVersion.VERSION_1_8
+}

@@ -1,0 +1,6 @@
+Bundle-Name: averis-inventory-service
+Bundle-SymbolicName: com.averis.inventory.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+-dsannotations-options: inherit

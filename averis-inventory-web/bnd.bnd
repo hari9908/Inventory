@@ -1,0 +1,4 @@
+Bundle-Name: averis-inventory-web
+Bundle-SymbolicName: com.averis.inventory.web
+Bundle-Version: 1.0.0
+Export-Package: com.averis.inventory.web.constants

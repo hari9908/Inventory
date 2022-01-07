@@ -1,0 +1,3 @@
+dependencies {
+	compile  group: "com.liferay.portal", name: "release.dxp.api"
+}

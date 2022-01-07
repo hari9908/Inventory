@@ -1,0 +1,10 @@
+Bundle-Name: averis-inventory-api
+Bundle-SymbolicName: com.averis.inventory.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.averis.inventory.exception,\
+	com.averis.inventory.model,\
+	com.averis.inventory.service,\
+	com.averis.inventory.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../averis-inventory-service/service.xml
